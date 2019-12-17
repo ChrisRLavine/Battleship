@@ -1,0 +1,47 @@
+body {
+    background-image: url(../media/silas-baisch-K785Da4A_JA-unsplash.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100px;    
+}
+h1 {
+    font-size: 50px;
+    color: rgb(133, 202, 246);
+    transform: translate(217%, 65%);
+    font-family: 'Girassol', cursive;
+}
+p {
+    font-size: 30px;
+    transform: translate(284px, 34px);
+    font-family: 'Girassol', cursive;
+}
+.project {
+    transform: translate(333%, 0%);
+}
+.block:hover {
+    background-color: rgba(167, 167, 236, 0.575);
+}
+.block {
+    border: 2px solid rgba(43, 43, 43, 0.788);
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.507);
+}
+#gameboard {
+    width: 680px;
+    padding: 20px;
+    transform: translate(0%, 10%);
+}
+#win {
+    color: green;
+}
+#miss {
+    color: red;
+}
+#reset {
+    border-radius: 10px;
+    background-color: #85caf6;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate(294%, 125%);
+}
